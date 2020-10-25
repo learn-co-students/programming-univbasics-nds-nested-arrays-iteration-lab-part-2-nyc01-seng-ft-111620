@@ -13,7 +13,7 @@ def find_min_in_nested_arrays(src)
   count = 0
   while count < src.count do
     inner_count = 0
-    min = src[count][0]
+    min = 100
     while inner_count < src[count].count do
     # How to read the following line of code:
     #   Array at row_index
